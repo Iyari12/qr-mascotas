@@ -138,7 +138,7 @@ app.get("/mascota/:id", (req, res) => {
 
   <div class="card">
     <div class="header">
-      <img src="https://placedog.net/200/200" />
+      <img src="https://www.zooplus.es/magazine/wp-content/uploads/2017/10/fotolia_58776564-768x491.webp" />
       <h2>Ficha de Mascota</h2>
     </div>
 
