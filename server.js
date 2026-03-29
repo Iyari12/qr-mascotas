@@ -14,7 +14,7 @@ const mascotas = {
     ciudad: "Lambayeque",
     direccion: "Av. Las Flores 456",
     telefono: "987654321",
-    contactoTexto: "912345678 (Dueño)"
+    contactoTexto: "912 345 678 (Dueño)"
   }
 };
 
