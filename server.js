@@ -14,11 +14,11 @@ const mascotas = {
     ciudad: "Lambayeque",
     direccion: "Av. Las Flores 456",
     telefono: "987654321",
-    contactoTexto: "987 654 321 (Dueño)"
+    contactoTexto: "912345678 (Dueño)"
   }
 };
 
-// ✅ Ruta principal (evita el error Cannot GET /)
+// Ruta principal 
 app.get("/", (req, res) => {
   res.send(`
     <h1>🐾 Sistema de Mascotas</h1>
@@ -30,7 +30,7 @@ app.get("/", (req, res) => {
   `);
 });
 
-// ✅ Ruta para generar QR
+// Ruta para generar QR
 app.get("/qr/:id", async (req, res) => {
   const id = req.params.id;
   const url = `https://qr-mascotas.onrender.com/mascota/${id}`;
@@ -47,7 +47,7 @@ app.get("/qr/:id", async (req, res) => {
   }
 });
 
-// ✅ Ruta de la ficha de mascota
+// Ruta de la ficha de mascota
 app.get("/mascota/:id", (req, res) => {
   const mascota = mascotas[req.params.id];
 
@@ -116,7 +116,7 @@ app.get("/mascota/:id", (req, res) => {
           <div class="item"><b>Contacto:</b> ${mascota.contactoTexto}</div>
 
           <a class="btn" href="tel:${mascota.telefono}">
-            📞 Llamar al dueño
+             Llamar al dueño
           </a>
         </div>
       </div>
