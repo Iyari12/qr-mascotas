@@ -9,9 +9,9 @@ const BASE_URL = "https://qr-mascotas-1.onrender.com";
 // Datos simulados de mascotas
 const mascotas = {
   "123": {
-    nombre: "Luna",
+    nombre: "Mathias",
     tipo: "Perro",
-    raza: "Labrador",
+    raza: "BullDog Americano",
     edad: "2 años",
     ciudad: "Lambayeque",
     direccion: "Av. Las Flores 456",
